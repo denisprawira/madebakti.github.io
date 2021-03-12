@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X6 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="28.194mm" height="29.6332mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 2819 2963"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:black;stroke-width:7.62}
+    .str0 {stroke:black;stroke-width:60}
+    .fil1 {fill:none}
+    .fil3 {fill:black}
+    .fil0 {fill:#FFBF34}
+    .fil2 {fill:black;fill-rule:nonzero}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M78 3114l3136 0 0 -3104 -3136 0 0 3104 0 0z"/>
+   </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g style="clip-path:url(#id0)">
+   <g id="_773638288">
+    <path class="fil0" d="M1879 46c253,56 492,228 637,457 145,230 194,519 200,795 6,277 22,588 -81,821 -188,424 -800,814 -1262,815 -259,1 -525,-108 -752,-277 -227,-169 -416,-398 -491,-655 -75,-258 -38,-546 33,-807 70,-262 174,-498 335,-675 161,-178 379,-297 620,-385 242,-88 507,-145 760,-89z"/>
+   </g>
+  </g>
+  <polyline class="fil1" points="78,3114 3214,3114 3214,10 78,10 78,3114 "/>
+  <path class="fil1 str0" d="M1948 1062l0 310m0 678l0 123c-11,2 -22,3 -33,3l-878 0c-112,0 -204,-94 -204,-210l0 -994c0,-115 92,-210 204,-210l922 0"/>
+  <path class="fil1 str0" d="M1948 1181c-11,2 -22,3 -33,3l-878 0c-112,0 -204,-94 -204,-210"/>
+  <path class="fil2 str1" d="M2028 1719c2,-10 4,-25 4,-44 0,-95 -45,-242 -212,-242 -151,0 -243,122 -243,278 0,155 95,260 254,260 82,0 140,-18 172,-33l-16 -67c-34,15 -76,27 -143,27 -95,0 -175,-52 -177,-179l362 0zm-360 -67c7,-65 49,-151 144,-151 106,0 131,93 130,151l-274 0z"/>
+  <rect class="fil3 str1" x="1101" y="1328" width="557" height="50"/>
+  <rect class="fil3 str1" x="1101" y="1523" width="432" height="50"/>
+  <rect class="fil3 str1" x="1101" y="1719" width="407" height="50"/>
+ </g>
+</svg>

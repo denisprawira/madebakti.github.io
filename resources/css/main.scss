@@ -1,0 +1,211 @@
+@import "./_queries.scss";
+@import "./_reset.scss";
+
+$color-primary:#19222C;
+$color-secondary: #FFD700;
+$color-primary-light:#232E3A;
+$color-white:#ffff;
+
+
+hr{
+    margin-top:1rem;
+    margin-bottom:1rem;
+    border:0;
+    border-top:1px solid rgba(0,0,0,.1); 
+ }
+ 
+ hr{
+     -webkit-box-sizing:content-box;
+             box-sizing:content-box;
+     height:0;
+     overflow:visible;
+ }
+ 
+ hr{
+     display:block;
+     unicode-bidi:-webkit-isolate;
+     unicode-bidi:-moz-isolate;
+     unicode-bidi:isolate;
+     -webkit-margin-before:0.5em;
+             margin-block-start:0.5em;
+     -webkit-margin-after:0.5em;
+             margin-block-end:0.5em;
+     -webkit-margin-start:auto;
+             margin-inline-start:auto;
+     -webkit-margin-end:auto;
+             margin-inline-end:auto;
+     overflow:hidden;
+     border-style:inset;
+     border-width:1px;
+ }
+
+header{
+    background:$color-primary;
+}
+
+#section-1{
+    color:$color-white !important;
+    background:$color-primary;
+
+
+}
+
+#section-2{
+    color:$color-primary;
+    ul{
+        list-style-type:disc !important;
+        margin-left:20px;
+    }
+}
+
+#section-3{
+    color:$color-white;
+    background:$color-primary;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+    ul>li:before{
+        content: "\f00c"; /* FontAwesome Unicode */
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: -1.3em; /* same as padding-left set on li */
+        width: 1.3em; /* same as padding-left set on li */
+        color:$color-secondary;
+    }
+    .col{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    ul{
+        align-self:flex-start;
+
+    }
+}
+
+#section-4{
+    .row-column>.col:last-child>h6:first-child{
+        color:red;
+    }
+}
+
+#section-5{
+    color:$color-white;
+    background:$color-primary;
+}
+
+#section-7{
+    color:$color-white;
+    background:$color-primary;
+    
+}
+
+#section-8{
+    .card-container{
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+    
+    .container-badge{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .card-thumnail{
+        border:0;
+        margin-top:30px;
+        padding:25px;
+        border-radius:10px !important;
+        box-shadow:5px 4px 10px 10px rgba(184, 184, 184, 0.15);
+        -webkit-transition: all .4s;
+        -o-transition: all .4s;
+        transition: all .4s;
+    }  
+    
+    .card-reset{
+        -webkit-box-shadow:0px 0px 0px 0px rgba(166, 172, 190 , 30%) !important;
+                box-shadow:0px 0px 0px 0px rgba(166, 172, 190 , 30%) !important;
+    }
+    
+
+}
+
+#section-9{
+    color:$color-white;
+    background:$color-primary;
+    .col-flex>.row>.col{
+        background:$color-primary-light;
+        margin:10px;
+        padding:20px;
+        border-radius:20px;
+        -webkit-border-radius:20px;
+        -moz-border-radius:20px;
+        -ms-border-radius:20px;
+        -o-border-radius:20px;
+    }
+
+
+}
+
+footer{
+    background:$color-primary;
+    padding:5%;
+    .btn{
+        background:$color-secondary;
+        padding:10px 20px;
+        color:$color-primary !important;
+        font-weight:900;
+        border-radius:25px;
+        -webkit-border-radius:25px;
+        -moz-border-radius:25px;
+        -ms-border-radius:25px;
+        -o-border-radius:25px;
+}
+    #col-contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #img-contact{
+        height: 150px;
+        width: 150px;
+        border-radius:50%;
+        -webkit-border-radius:50%;
+        -moz-border-radius:50%;
+        -ms-border-radius:50%;
+        -o-border-radius:50%;
+}
+
+    #card-contact{
+        padding:30px;
+        align-items:center;
+        background:none;
+        border:7px solid $color-secondary;
+        border-radius:51px;
+        -webkit-border-radius:51px;
+        -moz-border-radius:51px;
+        -ms-border-radius:51px;
+        -o-border-radius:51px;
+        h3,p{
+            color:$color-white !important;
+            text-align:center;
+            margin:30px 0;
+        }
+        h3{
+            margin-top:0;
+        }
+    }
+
+    h1{
+        color:white;
+        text-align:center;
+     }
+    
+}
+
+
