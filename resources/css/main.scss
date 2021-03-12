@@ -208,4 +208,21 @@ footer{
     
 }
 
+.float{
+	position:fixed;
+	width:auto;
+	height:auto;
+	bottom:40px;
+	left:40px;
+  z-index:100;
+}
+.float:hover{
+    color:#FFF;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+
 
